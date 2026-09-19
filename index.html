@@ -385,7 +385,7 @@ const CONFIG = {
   pista: "Pista: la palabra es biz..cho 😉",
 
   momentos: [
-    { fecha: "Día 1",       titulo: "El día que nos conocimos", texto: "La verdad nunca pens que esa creaturá que acompañé a bajar las escalas 🙈, de estatura aproximada de 1.50 😅 se fuese a convertir en el amor de mi vida! ❤️😍😘." },
+    { fecha: "Día 1",       titulo: "El día que nos conocimos", texto: "La verdad nunca pens que esa creatura que acompañé a bajar las escalas 🙈, de estatura aproximada de 1.50 😅 se fuese a convertir en el amor de mi vida! ❤️😍😘." },
     { fecha: "Semana 3",    titulo: "Nuestras charlas",   texto: "Ese lugar (Universidad), esas conversaciones, esas risas que todavía recuerdo." },
     { fecha: "Un día cualquiera", titulo: "Cuando te llamé", texto: " 📱 Simplemente lo hacía por puro, protocolo esperando que estuvieses bien y que no desertaras de la clase." },
     { fecha: "Otro día cualquiera", titulo: "Cuando supe que eras tú", texto: " No olvido el día en que te llevé manzanita 🍎🍎 y tú me llevaste bananito🍌🍌. Creo que nunca lo voy a superar." },
@@ -399,14 +399,35 @@ const CONFIG = {
     { src: "fotos/foto2.jpeg", texto: "Esa sonrisa ♥" },
     { src: "fotos/foto3.jpeg", texto: "Esos momentos de locura" },
     { src: "fotos/foto4.jpeg", texto: "Tú y tus proyectos" },
-    { src: "fotos/foto5.jpg", texto: "Mi lugar favorito: contigo" },
-    { src: "fotos/foto6.jpg", texto: "Aventura juntos" },
-    { src: "fotos/foto7.jpg", texto: "Para siempre" }
+    { src: "fotos/foto5.jpeg", texto: "Mi niña hermosa" },
+    { src: "fotos/foto6.jpeg", texto: "Ayyyyyyyyy" },
+    { src: "fotos/foto7.jpeg", texto: "Upaaaaa" },
+    { src: "fotos/foto8.jpeg", texto: "Lindos" },
+    { src: "fotos/foto9.jpeg", texto: "Re-Lindos" },
+    { src: "fotos/foto10.jpeg", texto: "SUCHI-CHARRON🍣🍣" },
+    { src: "fotos/foto11.jpeg", texto: "Niza" },
+    { src: "fotos/foto12.jpeg", texto: "Sin barbuchis" },
+    { src: "fotos/foto13.jpeg", texto: "Consentidaaaaa" },
+    { src: "fotos/foto14.jpeg", texto: "Mamacita mía" },
+    { src: "fotos/foto15.jpeg", texto: "Sin crespos 😥" },
+    { src: "fotos/foto16.jpeg", texto: "Familia ❤️" },
+    { src: "fotos/foto17.jpeg", texto: "Groserita" },
+    { src: "fotos/foto18.jpeg", texto: "Que viva Colmbia " },
+    { src: "fotos/foto19.jpeg", texto: "Garoso 🐶" },
+    { src: "fotos/foto20.jpeg", texto: "Mi pequeña 🤪" },
+    { src: "fotos/foto21.jpeg", texto: "Que verde tan lindo" },
+    { src: "fotos/foto22.jpeg", texto: "En todas las situeaciones" },
+    { src: "fotos/foto23.jpeg", texto: "Crespita 😍😘🤩" },
+    { src: "fotos/foto24.jpeg", texto: "Lindos " },
+    { src: "fotos/foto25.jpeg", texto: "Otra sin crespos" },
+    { src: "fotos/foto26.jpeg", texto: "Picarona" },
+    { src: "fotos/foto27.jpeg", texto: "Ayyyyyy" },
+    { src: "fotos/foto28.jpeg", texto: "Los mejores del mundo mundial" }
   ],
 
   razones: [
-    "Porque un hermoso angelito que me dió la vida.",
-    "Porque tus puntadas son tan precisas como tus cálculos.",
+    "Porque eres un hermoso angelito que me dió la vida.",
+    "Porque tus puntadas y  tuiintuición son tan precisas como tus cálculos! que susto.",
     "Porque contigo hasta el error más raro tiene solución.",
     "Porque me haces reír cuando menos lo espero.",
     "Porque eres la persona más brillante que conozco.",
@@ -701,7 +722,8 @@ btnNo.addEventListener('click',huir);
 btnSi.addEventListener('click',()=>{
   dijoSi=true; btnNo.style.display='none';
   $('#mensajeFinal').textContent=CONFIG.mensajeFinal;
-  $('#fechaOficial').textContent='Oficialmente juntos desde el '+new Date().toLocaleDateString('es-CO',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+  //$('#fechaOficial').textContent='Oficialmente juntos desde el '+new Date().toLocaleDateString('es-CO',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+  $('#fechaOficial').textContent='Oficialmente juntos desde el sábado 19 de séptiembre de 2026 😍';
   $('#celebracion').classList.add('ver');
   lluvia();
 });
